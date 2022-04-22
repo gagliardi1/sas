@@ -1,0 +1,41 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header, footer {
+    color: white;
+    background-color: black;
+    padding: $espaciado_estructura;
+}
+
+.logo {
+    width: 180px;
+}
+
+main {
+    color: $color_primario;
+    background-color: lightblue;
+    padding: 50px;
+}
+
+div section {
+
+    color: $color_secundario;
+    font-size: $fondo_primario;
+    padding: $espaciado_estructura;
+    
+}
+
+section {
+    background-color: rgb(209, 204, 204);
+    padding: 20px;
+    margin: 20px;
+}
+
+div img {
+    border-radius: 50px;
+    margin: auto;
+    display: block;
+
+}

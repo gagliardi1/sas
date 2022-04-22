@@ -1,0 +1,21 @@
+@import "_colores";
+@import "_estructura";
+@import "_tipografia";
+
+
+ul {
+    list-style: none;
+    font-size: 50px;
+    li {
+        display: inline;
+        padding: $espaciado_estructura;
+        a{
+            color: black;
+            text-decoration: none;
+            &:hover {
+                color: gold;
+                
+            }
+        }
+    }
+}
